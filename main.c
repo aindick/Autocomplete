@@ -3,6 +3,9 @@
 #include <dirent.h>
 #include <string.h>
 #include <ctype.h>
+//Alexis Indick
+//Autocomplete for CSC 344
+//2/17/2021
 struct Node {
     char c; //Don't put counter before c, program won't work!
     int counter;
